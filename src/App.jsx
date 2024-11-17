@@ -7,11 +7,12 @@ import "./App.css";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
-  const [products, setProducts] = useState(mockData);
+  const [products, setProducts] = useState([]);
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
     const timeout = setTimeout(() => {
+      setProducts(mockData);
       setIsLoading(false);
     }, 1000);
     return () => clearTimeout(timeout);
