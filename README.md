@@ -1,8 +1,14 @@
-# React + Vite
+# Tablas Material UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta tabla se basa en la libreria Material UI, se puede usar para mostrar informacion de una manera mas sencilla y amigable.
 
-Currently, two official plugins are available:
+## Requerimientos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Una Tabla centrada que cargara información después de un timeout de un segundo.
+- Un formulario de carga de nuevos productos
+- Agregar un spinner que valide si la aplicación está cargando o no.
+
+## Imagenes
+
+![alt text](/public/table.png "Table Material UI")
+![alt text](/public/form.png "Form Material UI")
